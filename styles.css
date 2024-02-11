@@ -1,0 +1,93 @@
+.menu{
+    width: 1440px;
+        height: 72px;
+        flex-shrink: 0;
+        border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+            background: var(--WHITE, #FFF);
+            display: flex;
+            
+}
+
+.logo1{
+    
+    font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px; 
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
+        text-decoration: none;
+        cursor: pointer;
+        
+}
+
+.logo2{
+    width: 71px;
+    font-family: "Raleway", sans-serif;
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 21px; 
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #2e2f42;
+        text-decoration: none;
+        cursor: pointer;
+}
+ 
+.studio{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 24px; 
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+        margin-left: 76px;
+}
+
+.portfolio{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 24px; 
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.contacts{
+    font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        font-style: normal;
+        line-height: 24px; 
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
+}
+
+.studio,
+.portfolio,
+.contacts {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    font-style: normal;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-right: 40px;
+    
+}
+.studio,
+.portfolio,
+.contacts, 
+.logo1,
+.logo2{
+    margin-top: 25.5px;
+}
