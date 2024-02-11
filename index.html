@@ -4,36 +4,70 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Homework#2</title>
   </head>
 
-  <body>
+  <body class="body">
     <!-- Top Line -->
     <header>
       <nav class="menu">
-        <span>
-          <a href="http://127.0.0.1:5500/index.html" class="logo1">WEB</a>
+        <span class="logo1">
+          <a href="http://127.0.0.1:5500/index.html" class="logo" type="button"
+            >WEB</a
+          >
         </span>
-        <span>
-          <a href="http://127.0.0.1:5500/index.html" class="logo2">STUDIO</a>
+        <span class="logo2">
+          <a href="http://127.0.0.1:5500/index.html" class="logo" type="button"
+            >STUDIO</a
+          >
         </span>
-        <span class="studio">Studio</span>
-        <span class="portfolio">Portfolio</span>
-        <span class="contacts">Contacts</span>
+        <span class="studio"
+          ><a href="" class="studio-portfolio-contacts" type="button">Studio</a>
+        </span>
+        <span class="portfolio">
+          <a
+            href="portfolio.html"
+            class="studio-portfolio-contacts"
+            type="button"
+            >Portfolio
+          </a>
+        </span>
+        <span class="contacts">
+          <a href="" class="studio-portfolio-contacts" type="button">
+            Contacts
+          </a>
+        </span>
+        <span class="email"
+          ><a href="" class="email1">info@devstudio.com</a></span
+        >
+        <span class="phone"
+          ><a href="" class="phone1">+11 (000) 111-11-11</a></span
+        >
       </nav>
-
-      <div class="contacts">
-        <span class="email">info@devstudio.com</span>
-        <span class="phone">+11 (000) 111-11-11</span>
-      </div>
     </header>
     <main>
       <!-- hero image -->
-      <section title="Hero-image">
-        <h1>Effective Solutions for Your Business</h1>
-
-        <button type="button">Order Service</button>
+      <section title="Hero-image" class="dark-bk">
+        <h1 class="title-1">
+          Effective Solutions<br />
+          for Your Business
+        </h1>
+        <div class="button-1">
+          <button type="button" class="order-service">Order Service</button>
+        </div>
       </section>
       <!-- Section 1 -->
       <section title="Section1">
