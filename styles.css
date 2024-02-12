@@ -106,7 +106,10 @@
         color: #434455;
 }
 
-.web, .web1, .studio, .studio1, .studio2, .portfolio, .contacts
+.web, .web1, .studio, .studio1, .studio2, .portfolio, .contacts:hover{
+    color: #4d5ae5;
+    transition: color 0.3s ease;
+}
 
 /*HERO IMAGE*/
 
