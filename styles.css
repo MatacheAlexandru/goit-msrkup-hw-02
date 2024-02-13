@@ -42,13 +42,13 @@
 .web{
     font-family: "Raleway", sans-serif;
     font-weight: 800;
-     font-size: 18px;
-     font-style: normal;
-     line-height: 21px; 
-     letter-spacing: 0.03em;
-     text-transform: uppercase;
-     color: var(--IRIS, #4D5AE5);
-     width: 44px;
+    font-size: 18px;
+    font-style: normal;
+    line-height: 21px; 
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--IRIS, #4D5AE5);
+    width: 44px;
     text-decoration: none;
 }
 
@@ -117,11 +117,10 @@
 
 .email-phone{
     display: inline-flex;
-        align-items: flex-start;
-        justify-content: flex-start;
-        flex-direction: row;
-        margin-top: 25.5px;
-        
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: row;
+    margin-top: 25.5px;      
 }
 
 .email{
@@ -133,8 +132,7 @@
     letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
     margin-left: 332px;
-    text-decoration: none;
-    
+    text-decoration: none;   
 }
 
 .phone{
@@ -146,8 +144,7 @@
     letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
     margin-left: 40px;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
 
 .top-line a:hover,
@@ -162,11 +159,7 @@ header.top-line a:focus {
     height: 600px;
     background: var(--NAVY-BLUE, #2E2F42);
     flex-shrink: 0;
-    margin-top: 72px;
-    /* display: flex; */
-    /* display: inline-flex; */
-    
-    
+    margin-top: 72px;  
 }
 
 .effective-solutions-for-your-business{
@@ -198,8 +191,9 @@ header.top-line a:focus {
     background: #4d5ae5;
     align-items: center;
     justify-content: center;  
-    margin-left: 636px;
-    margin-right: 635px;
+    margin-left: 600px;
+    margin-bottom: 188px;
+    
 }
 
 .order-service {
@@ -212,6 +206,7 @@ header.top-line a:focus {
     color: var(--WHITE, #FFF);
     background: #4d5ae5; 
     border: none;
+    cursor: pointer;
     
 }
 
@@ -221,6 +216,10 @@ header.top-line a:focus {
     width: 1128px;
     height: 104px;
     flex-shrink: 0;
+    margin-top: 120px;
+    margin-left: 156px;
+    display: flex;
+
 }
 
 .feature1{
@@ -241,6 +240,9 @@ header.top-line a:focus {
     line-height: 24px; 
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
+    margin-top: 0px;
+    
+    
 }
 
 .text1{
@@ -251,6 +253,8 @@ header.top-line a:focus {
     line-height: 24px; 
     letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
+    margin-top: -15px;
+    
 }
 
 .feature2{
@@ -261,6 +265,7 @@ header.top-line a:focus {
     gap: 8px;
     width: 264px;
     height: 104px;
+    margin-left: 24px;
 }
 
 .punctuality{
@@ -271,6 +276,9 @@ header.top-line a:focus {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
+    margin-top: 0px;
+    
+    
 }
 
 .text2{
@@ -281,6 +289,7 @@ header.top-line a:focus {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
+    margin-top: -15px;
 }
 
 .feature3{
@@ -291,6 +300,7 @@ header.top-line a:focus {
     gap: 8px;
     width: 264px;
     height: 104px;
+    margin-left: 24px;
 }
 
 .diligence{
@@ -301,6 +311,8 @@ header.top-line a:focus {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
+    margin-top: 0px;
+    
 }
 
 .text3{
@@ -311,6 +323,7 @@ header.top-line a:focus {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
+    margin-top: -15px;
 }
 
 .feature4{
@@ -321,6 +334,7 @@ header.top-line a:focus {
     gap: 8px;
     width: 264px;
     height: 104px;
+    margin-left: 24px;
 }
 
 .tehnologies{
@@ -331,6 +345,8 @@ header.top-line a:focus {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--NAVY-BLUE, #2E2F42);
+    margin-top: 0px;
+    
 }
 
 .text4{
@@ -341,6 +357,7 @@ header.top-line a:focus {
     line-height: 24px;
     letter-spacing: 0.02em;
     color: var(--SLATE, #434455);
+    margin-top: -15px;
 }
 
 /*SECTION 2*/
@@ -349,6 +366,7 @@ header.top-line a:focus {
     width: 1128px;
     height: 412px;
     flex-shrink: 0;
+    
 }
 
 .what-are-we-doing{
@@ -359,8 +377,11 @@ header.top-line a:focus {
         line-height: 40px; 
         letter-spacing: 0.02em;
         text-transform: capitalize;
-        text-align: center;
-        color: var(--NAVY-BLUE, #2E2F42);;
+        /* text-align: center; */
+        margin-top: 400px;
+        color: var(--NAVY-BLUE, #2E2F42);
+        margin-left: 559px;
+        margin-top: 120px;
 }
 
 .img-1{
@@ -371,6 +392,8 @@ header.top-line a:focus {
     gap: 0px;
     width: 360px;
     height: 300px;
+    margin-top: 72px;
+    margin-left: 156px;
 }
 
 .img-2 {
@@ -381,6 +404,9 @@ header.top-line a:focus {
     gap: 0px;
     width: 360px;
     height: 300px;
+    margin-top: 0px;
+    margin-left: 540px;
+    margin-top: -300px;
 }
 
 .img-3 {
@@ -391,6 +417,8 @@ header.top-line a:focus {
     gap: 0px;
     width: 360px;
     height: 300px;
+    margin-left: 924px;
+    margin-top: -300px;
 }
 
 .rectangle-71{
@@ -406,6 +434,10 @@ header.top-line a:focus {
     height: 732px;
     background: #f4f4fd;
     flex-shrink: 0;
+    display: flex;
+    margin-top: 120px;
+    
+
 }
 
 .our-team{
@@ -418,11 +450,15 @@ header.top-line a:focus {
     text-transform: capitalize;
     text-align: center;
     color: var(--NAVY-BLUE, #2E2F42);
+    margin-top: 120px;
+    margin-left: 639px;
+    
+
 }
 
 .team-card1{
-    /* display: flex; */
-    display: inline-flex;
+    
+    
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -433,22 +469,28 @@ header.top-line a:focus {
     height: 380px;
     box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
     background: #fff;
+    margin-top: 232px;
+    
+    
 }
 
 .img{
     width: 264px;
     height: 260px;
     background: url(<path-to-image>), lightgray -97.034px -0.927px / 181.897% 251.37% no-repeat;
+    
 }
 
 .card-content{
-    display: flex;
+    
     align-items: center;
     justify-content: center;
     flex-direction: column;
     gap: 8px;
     width: 232px;
     height: 56px;
+    
+    /* margin-top: 232px; */
 }
 
 .name{
@@ -460,6 +502,7 @@ header.top-line a:focus {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--NAVY-BLUE, #2E2F42);
+    
 }
 
 .job-description{
@@ -471,6 +514,13 @@ header.top-line a:focus {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--SLATE, #434455);
+    
+}
+
+.section3 li{
+    display: inline-block;
+    list-style-type: none;
+        
 }
 
 .section3 h3:hover,
