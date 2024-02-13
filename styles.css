@@ -33,9 +33,6 @@
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
-        
-        
-
 }
 
 .studio{
@@ -106,12 +103,10 @@
         color: #434455;
 }
 
-.web, .web1, .studio, .studio1, .studio2, .portfolio, .contacts:hover{
-    color: #4d5ae5;
-    transition: color 0.3s ease;
+.top-line a:hover,
+header.top-line a:focus {
+    color: blue;
 }
-
-/*HERO IMAGE*/
 
 .hero-image{
     width: 1440px;
@@ -370,7 +365,7 @@
     background: #fff;
 }
 
-.img-4{
+.img{
     width: 264px;
     height: 260px;
 }
@@ -385,7 +380,7 @@
     height: 56px;
 }
 
-.mark-guerrero{
+.name{
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 20px;
@@ -396,7 +391,7 @@
     color: #2e2f42;
 }
 
-.product-designer{
+.job-description{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-size: 16px;
@@ -407,130 +402,12 @@
     color: #434455;
 }
 
-.team-card2{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 32px;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
+.section3 h3:hover,
+.section3 h3:focus,
+.section3 p:hover,
+.section3 p:focus {
+    color: red;
 }
-
-.img-5{
-    width: 264px;
-    height: 260px;
-}
-
-.tom-ford{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px; 
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
-
-.frontend-developer{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px; 
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
-}
-
-.team-card3{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        gap: 32px;
-        border-radius: 0 0 4px 4px;
-        padding: 0px 0px 32px 0px;
-        width: 264px;
-        height: 380px;
-        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-        background: #fff;
-
-}
-
-.img-6{
-    width: 264px;
-    height: 260px;
-}
-
-.camila-garcia{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px; 
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
-
-.item-marketing{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px; 
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
-}
-
-.team-card4{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 32px;
-    border-radius: 0 0 4px 4px;
-    padding: 0px 0px 32px 0px;
-    width: 264px;
-    height: 380px;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-    background: #fff;
-}
-
-.img-7{
-    width: 264px;
-    height: 260px;
-}
-
-.daniel-wilson{
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px; 
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #2e2f42;
-}
-
-.ui-designer{
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px; 
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    text-align: center;
-    color: #434455;
-}
-
 /*FOOTER*/
 
 .footer{
