@@ -3,7 +3,7 @@
     width: 1440px;
     height: 2592px;
     background: #fff;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 /*NAV MENU -- TOP LINE*/
@@ -472,6 +472,7 @@ header.top-line a:focus {
     margin-top: 232px;
     
     
+    
 }
 
 .img{
@@ -516,6 +517,13 @@ header.top-line a:focus {
     color: var(--SLATE, #434455);
     
 }
+
+
+.pepole{
+    margin-left: -800px;
+}
+
+
 
 .section3 li{
     display: inline-block;
